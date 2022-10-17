@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/tailwind.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Google</title>
+  </head>
+  <body class="relative grid items-center justify-center h-screen">
+    <section class="relative top-0 grid w-full md:fixed">
+      <ul class="flex items-center justify-end gap-4 p-6">
+        <li class="hover:cursor-pointer hover:underline text-[13px]">Gmail</li>
+        <li class="hover:cursor-pointer hover:underline text-[13px]">Images</li>
+        <img
+          src="./asserts/apps_FILL0_wght500_GRAD0_opsz24.svg"
+          alt="application"
+          class="px-2 pt-2 pb-2 mt-auto mb-auto rounded-full cursor-pointer hover:bg-[#f2f2f2]"
+        />
+        <img
+          src="./asserts/profil.jpg"
+          alt=""
+          class="border-2 rounded-full hover:border-gray-400 h-9"
+        />
+      </ul>
+    </section>
+    <section class="flex flex-col items-center justify-center m-auto">
+      <img
+        src="./asserts/googlelogo_color_272x92dp.png"
+        alt=""
+        class="mb-8 w-80 lg:w-52"
+      />
+      <form action="" class="w-[40%] lg:w-[500px] hover:drop-shadow-md">
+        <div class="relative flex items-center">
+          <span class="absolute ml-3 text-gray-500 material-symbols-outlined">
+            search
+          </span>
+          <input
+            type="text"
+            class="w-full p-2 pl-10 pr-10 border-none rounded-full outline-none ring-1 ring-gray-200"
+          />
+          <img
+            src="./asserts/Google_Icons-25-512.webp"
+            class="absolute h-7 right-2"
+            alt=""
+          />
+        </div>
+      </form>
+      <section class="flex flex-col items-center justify-center gap-1 p-6">
+        <div class="flex space-x-4 text-[14px]">
+          <button
+            class="self-center p-2 bg-gray-100 border-none rounded-md ring-1 ring-gray-100 hover:shadow-md hover:ring-gray-300"
+          >
+            Google Search
+          </button>
+          <button
+            class="self-center p-2 bg-gray-100 border-none rounded-md ring-1 ring-gray-100 hover:shadow-md hover:ring-gray-300"
+          >
+            I'm Felling Lucky
+          </button>
+        </div>
+        <section class="flex items-center justify-center gap-2 p-6 text-[13px]">
+          <span>Google offered in:</span>
+          <a href="#" class="text-blue-500 hover:underline">Français</a>
+          <a href="#" class="text-blue-500 hover:underline">Kiswahili</a>
+          <a href="#" class="text-blue-500 hover:underline">Ikinyarwanda</a>
+        </section>
+      </section>
+    </section>
+
+    <footer
+      class="relative bottom-0 grid w-full md:absolute bg-[#f2f2f2] text-[#70757a]"
+    >
+      <p class="py-2 ml-4 text-[15px]">
+        Rwanda <br />
+        <hr />
+      </p>
+      <div class="flex items-center justify-between p-4">
+        <div>
+          <a href="#" class="mr-3 hover:underline text-[14px]">About</a>
+          <a href="#" class="mx-3 hover:underline text-[14px]">Advertising</a>
+          <a href="#" class="mx-3 hover:underline text-[14px]"> Business</a>
+          <a href="#" class="mx-3 hover:underline text-[14px]"
+            >How Search works</a
+          >
+        </div>
+        <div>
+          <a href="#" class="mx-3 hover:underline text-[14px]">Privacy</a>
+          <a href="#" class="mx-3 hover:underline text-[14px]">Terms</a>
+          <a href="#" class="mx-3 hover:underline text-[14px]">Settings</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "the-gym-google-clone",
+  "version": "1.0.0",
+  "description": "This is a solution to the Gym Traning. The Gym challenge help us to improve our coding skills by building realistic projects.\r In this exercise, we will use tailwindcss only. Try to use as much tailwindcss as you can. No vanilla CSS or BEM should be used. No custom CSS classes should be added to a CSS file. all CSS customization(if used) should be added to the tailwindcss config .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "npx tailwindcss -i ./style/tailwind.css -o ./dist/tailwind.css --watch",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimBagalwa/The-gym-google-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbrahimBagalwa/The-gym-google-clone/issues"
+  },
+  "homepage": "https://github.com/IbrahimBagalwa/The-gym-google-clone#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.8"
+  }
+}
