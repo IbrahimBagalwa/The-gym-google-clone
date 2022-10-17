@@ -12,15 +12,15 @@
     />
     <title>Google</title>
   </head>
-  <body class="relative grid items-center justify-center h-screen">
+  <body class="relative grid items-center justify-center h-screen font-arial">
     <section class="relative top-0 grid w-full md:fixed">
       <ul class="flex items-center justify-end gap-4 p-6">
-        <li class="hover:cursor-pointer hover:underline text-[13px]">Gmail</li>
-        <li class="hover:cursor-pointer hover:underline text-[13px]">Images</li>
+        <li class="hover:cursor-pointer hover:underline text-primarySize">Gmail</li>
+        <li class="hover:cursor-pointer hover:underline text-primarySize">Images</li>
         <img
           src="./asserts/apps_FILL0_wght500_GRAD0_opsz24.svg"
           alt="application"
-          class="px-2 pt-2 pb-2 mt-auto mb-auto rounded-full cursor-pointer hover:bg-[#f2f2f2]"
+          class="px-2 pt-2 pb-2 mt-auto mb-auto rounded-full cursor-pointer hover:bg-primary-color"
         />
         <img
           src="./asserts/profil.jpg"
@@ -35,7 +35,7 @@
         alt=""
         class="mb-8 w-80 lg:w-52"
       />
-      <form action="" class="w-[40%] lg:w-[500px] hover:drop-shadow-md">
+      <form action="" class="w-2/4 lg:w-mid hover:drop-shadow-md">
         <div class="relative flex items-center">
           <span class="absolute ml-3 text-gray-500 material-symbols-outlined">
             search
@@ -52,7 +52,7 @@
         </div>
       </form>
       <section class="flex flex-col items-center justify-center gap-1 p-6">
-        <div class="flex space-x-4 text-[14px]">
+        <div class="flex space-x-4 text-secondarySize">
           <button
             class="self-center p-2 bg-gray-100 border-none rounded-md ring-1 ring-gray-100 hover:shadow-md hover:ring-gray-300"
           >
@@ -64,7 +64,7 @@
             I'm Felling Lucky
           </button>
         </div>
-        <section class="flex items-center justify-center gap-2 p-6 text-[13px]">
+        <section class="flex items-center justify-center gap-2 p-6 text-primarySize">
           <span>Google offered in:</span>
           <a href="#" class="text-blue-500 hover:underline">Français</a>
           <a href="#" class="text-blue-500 hover:underline">Kiswahili</a>
@@ -74,26 +74,26 @@
     </section>
 
     <footer
-      class="relative bottom-0 grid w-full md:absolute bg-[#f2f2f2] text-[#70757a]"
+      class="relative bottom-0 grid w-full md:absolute bg-primary-color text-secondary-color"
     >
-      <p class="py-2 ml-4 text-[15px]">
+      <p class="py-2 ml-4 text-extreSize">
         Rwanda 
         <br />
         <hr />
       </p>
       <div class="flex items-center justify-between p-4">
-        <div>
-          <a href="#" class="mr-3 hover:underline text-[14px]">About</a>
-          <a href="#" class="mx-3 hover:underline text-[14px]">Advertising</a>
-          <a href="#" class="mx-3 hover:underline text-[14px]"> Business</a>
-          <a href="#" class="mx-3 hover:underline text-[14px]"
+        <div class="text-secondarySize">
+          <a href="#" class="mr-3 hover:underline">About</a>
+          <a href="#" class="mx-3 hover:underline">Advertising</a>
+          <a href="#" class="mx-3 hover:underline"> Business</a>
+          <a href="#" class="mx-3 hover:underline"
             >How Search works</a
           >
         </div>
-        <div>
-          <a href="#" class="mx-3 hover:underline text-[14px]">Privacy</a>
-          <a href="#" class="mx-3 hover:underline text-[14px]">Terms</a>
-          <a href="#" class="mx-3 hover:underline text-[14px]">Settings</a>
+        <div class="text-secondarySize">
+          <a href="#" class="mx-3 hover:underline">Privacy</a>
+          <a href="#" class="mx-3 hover:underline">Terms</a>
+          <a href="#" class="mx-3 hover:underline">Settings</a>
         </div>
       </div>
     </footer>
