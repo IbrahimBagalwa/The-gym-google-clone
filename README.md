@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![The-gym-google-clone - page]()
+![The-gym-google-clone - page](./deskpage.PNG)
 
 ### Links
 
