@@ -19,8 +19,8 @@ module.exports = {
       spacing: {
         mid: '500px',
       },
-      screens: {
-        '300p': '378px',
+      boxShadow: {
+        'box-shadow': ' 0.2rem 0.2rem 0.2rem 0.2rem ring-gray-300',
       },
     },
   },
