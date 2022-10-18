@@ -14,9 +14,13 @@ module.exports = {
       colors: {
         'primary-color': '#f2f2f2',
         'secondary-color': '#70757a',
+        'linkk-color': '#1A0DAB',
       },
       spacing: {
         mid: '500px',
+      },
+      screens: {
+        '300p': '378px',
       },
     },
   },
