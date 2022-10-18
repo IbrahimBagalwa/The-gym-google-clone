@@ -12,15 +12,15 @@
     />
     <title>Google</title>
   </head>
-  <body class="relative flex flex-col justify-between h-screen font-arial">
+  <body class="relative flex flex-col justify-between h-screen font-sans min-h-mobile sm:min-h-screen min-w-mobile">
     <section class="relative top-0 grid w-full md:fixed">
       <ul class="flex items-center justify-end gap-4 p-6">
-        <li class=" hover:underline text-primarySize"><a href="#">Gmail</a></li>
-        <li class=" hover:underline text-primarySize"><a href="#">Images</a></li>
+        <li ><a class="text-sm hover:underline" href="#">Gmail</a></li>
+        <li ><a class="text-sm hover:underline" href="#">Images</a></li>
         <img
           src="./asserts/apps_FILL0_wght500_GRAD0_opsz24.svg"
           alt="application"
-          class="px-2 pt-2 pb-2 mt-auto mb-auto rounded-full cursor-pointer hover:bg-primary-color"
+          class="px-2 pt-2 pb-2 mt-auto mb-auto rounded-full cursor-pointer hover:bg-primary"
         />
         <img
           src="./asserts/profil.jpg"
@@ -35,12 +35,12 @@
         alt="google-logo"
         class="mb-8 md:w-80 lg:w-52"
       />
-      <form action="" class="flex justify-center hover:drop-shadow-md">
-        <div class="relative basis-[35rem] flex items-center flex-grow flex-shrink-0 ">
+      <form action="" class="flex justify-center bg-transparent hover:drop-shadow-md">
+        <div class="relative flex items-center  flex-shrink-0 basis-[35rem] ">
           <img src="./asserts/rech-removebg-preview.png" alt="serch-icon" class="absolute h-12 ml-3 text-secondary-color material-symbols-outlined">
           <input
             type="text"
-            class="w-full p-2 px-40 pl-10 pr-10 border-none rounded-full outline-none ring-1 ring-gray-200"
+            class="w-full p-2 px-10 pl-10 border-none rounded-full outline-none ring-1 ring-gray-200"
           />
           <img
             src="./asserts/cam-removebg-preview.png"
@@ -50,37 +50,37 @@
         </div>
       </form>
       <section class="flex flex-col items-center justify-center gap-1 p-6">
-        <div class="flex space-x-4 text-secondarySize">
+        <div class="flex space-x-4 text-sm">
           <button
-            class="self-center p-2 bg-gray-100 border-none rounded-md ring-1 ring-gray-100 hover:shadow-md hover:ring-gray-300"
+            class="self-center px-6 py-2 bg-gray-100 border-none rounded-md ring-1 ring-gray-100 hover:shadow-md hover:ring-gray-300"
           >
             Google Search
           </button>
           <button
-            class="self-center p-2 bg-gray-100 border-none rounded-md ring-1 ring-gray-100 hover:shadow-md hover:ring-gray-300"
+            class="self-center px-6 py-2 bg-gray-100 border-none rounded-md ring-1 ring-gray-100 hover:shadow-md hover:ring-gray-300"
           >
             I'm Felling Lucky
           </button>
         </div>
-        <section class="flex items-center justify-center gap-2 p-6 text-primarySize">
+        <section class="flex items-center justify-center gap-2 p-6 text-sm">
           <span>Google offered in:</span>
-          <a href="#" class="text-linkk-color hover:underline">Français</a>
-          <a href="#" class="text-linkk-color hover:underline">Kiswahili</a>
-          <a href="#" class="text-linkk-color hover:underline">Ikinyarwanda</a>
+          <a href="#" class="text-link hover:underline">Français</a>
+          <a href="#" class="text-link hover:underline">Kiswahili</a>
+          <a href="#" class="text-link hover:underline">Ikinyarwanda</a>
         </section>
       </section>
     </section>
 
     <footer
-      class="relative bottom-0 grid w-full md:absolute bg-primary-color text-secondary-color"
+      class="relative bottom-0 grid w-full md:absolute bg-primary text-secondary"
     >
-      <p class="py-2 ml-4 text-extreSize">
+      <p class="py-2 ml-4 text-base">
         Rwanda 
         <br />
         <hr />
       </p>
       <div class="flex items-center justify-between p-4">
-        <div class=" text-secondarySize">
+        <div class="text-sm">
           <a href="#" class="mr-3 hover:underline">About</a>
           <a href="#" class="mx-3 hover:underline">Advertising</a>
           <a href="#" class="mx-3 hover:underline"> Business</a>
@@ -88,7 +88,7 @@
             >How Search works</a
           >
         </div>
-        <div class=" text-secondarySize">
+        <div class="text-sm">
           <a href="#" class="mx-3 hover:underline">Privacy</a>
           <a href="#" class="mx-3 hover:underline">Terms</a>
           <a href="#" class="mx-3 hover:underline">Settings</a>
