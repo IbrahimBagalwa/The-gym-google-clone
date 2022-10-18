@@ -2,6 +2,9 @@
 module.exports = {
   content: ['./index.html'],
   theme: {
+    screens: {
+      'mob-s': '375px',
+    },
     extend: {
       fontFamily: {
         arial: ['Arial,sans-serif'],
