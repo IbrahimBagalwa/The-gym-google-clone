@@ -5,39 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/tailwind.css" />
-    <link rel="stylesheet" href="./dist/tailwind.css">
+    <link rel="stylesheet" href="./dist/tailwind.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <title>Google</title>
   </head>
-  <body class="relative flex flex-col justify-between h-screen font-sans min-w-mobile">
-    <section class="fixed relative top-0 grid w-full mb-10 md:mb-0">
-      <ul class="flex items-center justify-end gap-4 p-6">
-        <li ><a class="text-sm hover:underline" href="#">Gmail</a></li>
-        <li ><a class="text-sm hover:underline" href="#">Images</a></li>
-        <img
-          src="./asserts/apps_FILL0_wght500_GRAD0_opsz24.svg"
-          alt="application"
-          class="px-2 pt-2 pb-2 mt-auto mb-auto rounded-full cursor-pointer hover:bg-primary"
-        />
+  <body class="relative h-screen font-sans min-w-mobile">
+    <nav
+      class="flex items-center justify-between px-4 py-2 mb-10 space-x-5 text-sm md:mb-0 sm:justify-end"
+    >
+      <div class="block sm:hidden">
+        <div class="flex items-center space-x-5 font-semibold">
+          <svg
+            class="w-6 h-6 text-gray-400"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+          </svg>
+          <a
+            href=""
+            class="text-blue-600 border-b-2 border-blue-600 border-solid"
+            >ALL</a
+          >
+          <a href="#">IMAGES</a>
+        </div>
+      </div>
+      <div class="flex items-center justify-end w-full space-x-3 text-sm">
+        <a href="#" class="hidden sm:flex hover:underline">Gmail</a>
+        <a href="#" class="hidden sm:flex hover:underline">Images</a>
+        <div
+          class="w-auto h-10 p-2 rounded-full cursor-pointer hover:bg-primary"
+        >
+          <img
+            src="./asserts/apps_FILL0_wght500_GRAD0_opsz24.svg"
+            alt="application"
+          />
+        </div>
         <img
           src="./asserts/profil.jpg"
           alt="user-profil"
-          class="border-2 rounded-full hover:border-gray-400 h-9"
+          class="p-1 rounded-full hover:bg-gray-300 h-9"
         />
-      </ul>
-    </section>
-    <section class="flex flex-col items-center justify-center md:m-auto- mb-80">
+      </div>
+    </nav>
+    <section class="flex flex-col items-center justify-center mb-80">
       <img
         src="./asserts/googlelogo_color_272x92dp.png"
         alt="google-logo"
         class="mb-8 w-[272px]"
       />
-      <form action="" class="flex justify-center bg-transparent hover:drop-shadow-md">
-        <div class="relative flex items-center basis-[30rem]  flex-shrink-0 md:basis-[35rem]">
-          <img src="./asserts/rech-removebg-preview.png" alt="serch-icon" class="absolute h-12 ml-3 text-secondary-color material-symbols-outlined">
+      <form
+        action=""
+        class="flex justify-center bg-transparent hover:drop-shadow-md"
+      >
+        <div
+          class="relative flex items-center basis-[30rem] flex-shrink-0 md:basis-[35rem]"
+        >
+          <img
+            src="./asserts/rech-removebg-preview.png"
+            alt="serch-icon"
+            class="absolute h-12 ml-3 text-secondary-color material-symbols-outlined"
+          />
           <input
             type="text"
             class="w-full p-3 px-10 pl-10 border-none rounded-full outline-none ring-1 ring-gray-200"
@@ -70,28 +102,27 @@
         </section>
       </section>
     </section>
-
     <footer
-      class="fixed bottom-0 grid w-full md:absolute bg-primary text-secondary"
+      class="fixed bottom-0 flex flex-col w-full md:absolute bg-primary text-secondary"
     >
-      <p class="py-2 ml-4 text-base">
-        Rwanda 
-        <br />
+      <div>
+        <p class="px-8 py-4 text-base">Rwanda</p>
+        <hr class="block py-4 md:hidden" />
         <hr />
-      </p>
-      <div class="flex items-center justify-between p-4">
-        <div class="text-sm">
-          <a href="#" class="mr-3 hover:underline">About</a>
-          <a href="#" class="mx-3 hover:underline">Advertising</a>
-          <a href="#" class="mx-3 hover:underline"> Business</a>
-          <a href="#" class="mx-3 hover:underline"
-            >How Search works</a
-          >
+      </div>
+      <div
+        class="flex flex-col items-center justify-between w-full sm:flex-row"
+      >
+        <div class="flex flex-wrap justify-center">
+          <a href="# " class="p-2 md:px-8 hover:underline">About </a>
+          <a href="# " class="p-2 hover:underline">Advertising</a>
+          <a href="# " class="p-2 hover:underline">Business</a>
+          <a href="# " class="p-2 hover:underline">How Search works</a>
         </div>
-        <div class="text-sm">
-          <a href="#" class="mx-3 hover:underline">Privacy</a>
-          <a href="#" class="mx-3 hover:underline">Terms</a>
-          <a href="#" class="mx-3 hover:underline">Settings</a>
+        <div class="flex w-fit">
+          <a href=" " class="p-2 hover:underline">Privacy</a>
+          <a href=" " class="p-2 hover:underline">Terms</a>
+          <a href=" " class="p-2 hover:underline">Settings</a>
         </div>
       </div>
     </footer>
