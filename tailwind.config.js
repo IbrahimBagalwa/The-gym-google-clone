@@ -19,9 +19,6 @@ module.exports = {
       spacing: {
         mid: '500px',
       },
-      boxShadow: {
-        'box-shadow': ' 0.2rem 0.2rem 0.2rem 0.2rem ring-gray-300',
-      },
     },
   },
   plugins: [],
