@@ -12,8 +12,8 @@
     />
     <title>Google</title>
   </head>
-  <body class="relative flex flex-col justify-between h-screen font-sans min-h-mobile sm:min-h-screen min-w-mobile">
-    <section class="relative top-0 grid w-full md:fixed">
+  <body class="relative flex flex-col justify-between h-screen font-sans min-w-mobile">
+    <section class="fixed relative top-0 grid w-full mb-10 md:mb-0">
       <ul class="flex items-center justify-end gap-4 p-6">
         <li ><a class="text-sm hover:underline" href="#">Gmail</a></li>
         <li ><a class="text-sm hover:underline" href="#">Images</a></li>
@@ -29,18 +29,18 @@
         />
       </ul>
     </section>
-    <section class="flex flex-col items-center justify-center m-auto">
+    <section class="flex flex-col items-center justify-center md:m-auto- mb-80">
       <img
         src="./asserts/googlelogo_color_272x92dp.png"
         alt="google-logo"
-        class="mb-8 md:w-80 lg:w-52"
+        class="mb-8 w-[272px]"
       />
       <form action="" class="flex justify-center bg-transparent hover:drop-shadow-md">
-        <div class="relative flex items-center  flex-shrink-0 basis-[35rem] ">
+        <div class="relative flex items-center basis-[30rem]  flex-shrink-0 md:basis-[35rem]">
           <img src="./asserts/rech-removebg-preview.png" alt="serch-icon" class="absolute h-12 ml-3 text-secondary-color material-symbols-outlined">
           <input
             type="text"
-            class="w-full p-2 px-10 pl-10 border-none rounded-full outline-none ring-1 ring-gray-200"
+            class="w-full p-3 px-10 pl-10 border-none rounded-full outline-none ring-1 ring-gray-200"
           />
           <img
             src="./asserts/cam-removebg-preview.png"
@@ -72,7 +72,7 @@
     </section>
 
     <footer
-      class="relative bottom-0 grid w-full md:absolute bg-primary text-secondary"
+      class="fixed bottom-0 grid w-full md:absolute bg-primary text-secondary"
     >
       <p class="py-2 ml-4 text-base">
         Rwanda 
